@@ -6,8 +6,25 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		F62EADF02EA690ED0051EC11 /* pips 5.png in Resources */ = {isa = PBXBuildFile; fileRef = F62EADED2EA690ED0051EC11 /* pips 5.png */; };
+		F62EADF12EA690ED0051EC11 /* pips 0.png in Resources */ = {isa = PBXBuildFile; fileRef = F62EADE82EA690ED0051EC11 /* pips 0.png */; };
+		F62EADF22EA690ED0051EC11 /* pips 3.png in Resources */ = {isa = PBXBuildFile; fileRef = F62EADEB2EA690ED0051EC11 /* pips 3.png */; };
+		F62EADF32EA690ED0051EC11 /* pips 1.png in Resources */ = {isa = PBXBuildFile; fileRef = F62EADE92EA690ED0051EC11 /* pips 1.png */; };
+		F62EADF42EA690ED0051EC11 /* pips 4.png in Resources */ = {isa = PBXBuildFile; fileRef = F62EADEC2EA690ED0051EC11 /* pips 4.png */; };
+		F62EADF52EA690ED0051EC11 /* pips 6.png in Resources */ = {isa = PBXBuildFile; fileRef = F62EADEE2EA690ED0051EC11 /* pips 6.png */; };
+		F62EADF62EA690ED0051EC11 /* pips 2.png in Resources */ = {isa = PBXBuildFile; fileRef = F62EADEA2EA690ED0051EC11 /* pips 2.png */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		F62EADD42E9FF9E20051EC11 /* Roll the Dice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Roll the Dice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F62EADE82EA690ED0051EC11 /* pips 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pips 0.png"; sourceTree = "<group>"; };
+		F62EADE92EA690ED0051EC11 /* pips 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pips 1.png"; sourceTree = "<group>"; };
+		F62EADEA2EA690ED0051EC11 /* pips 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pips 2.png"; sourceTree = "<group>"; };
+		F62EADEB2EA690ED0051EC11 /* pips 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pips 3.png"; sourceTree = "<group>"; };
+		F62EADEC2EA690ED0051EC11 /* pips 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pips 4.png"; sourceTree = "<group>"; };
+		F62EADED2EA690ED0051EC11 /* pips 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pips 5.png"; sourceTree = "<group>"; };
+		F62EADEE2EA690ED0051EC11 /* pips 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pips 6.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +49,7 @@
 		F62EADCB2E9FF9E20051EC11 = {
 			isa = PBXGroup;
 			children = (
+				F62EADEF2EA690ED0051EC11 /* Dice Images */,
 				F62EADD62E9FF9E20051EC11 /* Roll the Dice */,
 				F62EADD52E9FF9E20051EC11 /* Products */,
 			);
@@ -43,6 +61,20 @@
 				F62EADD42E9FF9E20051EC11 /* Roll the Dice.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		F62EADEF2EA690ED0051EC11 /* Dice Images */ = {
+			isa = PBXGroup;
+			children = (
+				F62EADE82EA690ED0051EC11 /* pips 0.png */,
+				F62EADE92EA690ED0051EC11 /* pips 1.png */,
+				F62EADEA2EA690ED0051EC11 /* pips 2.png */,
+				F62EADEB2EA690ED0051EC11 /* pips 3.png */,
+				F62EADEC2EA690ED0051EC11 /* pips 4.png */,
+				F62EADED2EA690ED0051EC11 /* pips 5.png */,
+				F62EADEE2EA690ED0051EC11 /* pips 6.png */,
+			);
+			path = "Dice Images";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,6 +141,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F62EADF02EA690ED0051EC11 /* pips 5.png in Resources */,
+				F62EADF12EA690ED0051EC11 /* pips 0.png in Resources */,
+				F62EADF22EA690ED0051EC11 /* pips 3.png in Resources */,
+				F62EADF32EA690ED0051EC11 /* pips 1.png in Resources */,
+				F62EADF42EA690ED0051EC11 /* pips 4.png in Resources */,
+				F62EADF52EA690ED0051EC11 /* pips 6.png in Resources */,
+				F62EADF62EA690ED0051EC11 /* pips 2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
